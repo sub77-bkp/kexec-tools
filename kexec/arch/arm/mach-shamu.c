@@ -210,7 +210,7 @@ exit:
 }
 
 const struct arm_mach arm_mach_shamu = {
-    .boardnames = { "shamu", NULL },
+    .boardnames = { "shamu", "matissewifi", "matisselte", "matisse3g", "falcon", NULL },
     .choose_dtb = shamu_choose_dtb,
     .add_extra_regs = shamu_add_extra_regs,
 };
